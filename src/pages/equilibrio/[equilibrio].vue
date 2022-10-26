@@ -3,8 +3,12 @@
 <template>
   <div>
     <Header />
-    <div class="grid grid-cols-2 gap-4">
-      <div class="text-left">
+    <h1 p-4 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">
+      Equilibrio quimico
+    </h1>
+
+    <div class="grid grid-cols-2 gap-4 divide-y divide-blue-200">
+      <div class="text-left" p-4>
         <p>
           El equilibrio químico es el estado en el que las actividades químicas
           o las concentraciones de los reactivos y los productos no tienen
@@ -16,9 +20,27 @@
           concentraciones de los reactivos o productos. Este proceso se denomina
           equilibrio dinámico
         </p>
+        <p>Existen varios principios pero uno de los mas importantes es el:</p>
+        <h2 class="underline" p-4>
+          Principio de Le Chatelier. Variaciones en el equilibrio.
+        </h2>
+        <p p-4>
+          “Un cambio o perturbación en cualquiera de las variables que
+          determinan el estado de equilibrio químico produce un desplazamiento
+          del equilibrio en el sentido de contrarrestar o minimizar el efecto
+          causado por la perturbación Un ejemplo de este en el siguiente video.
+        </p>
       </div>
+
       <div>
-        <img src="https://concepto.de/wp-content/uploads/2019/10/reaccion-quimica-e1571434174528.jpg" alt="reaccion quimica">
+        <iframe
+          width="100%"
+          height="400"
+          src="https://www.youtube.com/embed/wKvkINPRj4U"
+          title="Principio de Le Chatelier. Ejemplo | Química | Khan Academy en Español"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
       </div>
     </div>
   </div>
