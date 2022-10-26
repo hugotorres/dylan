@@ -31,7 +31,6 @@
           />
         </svg>
       </button>
- 
     </div>
   </nav>
 </template>

@@ -18,7 +18,7 @@
         </p>
       </div>
       <div>
-        <img src="./assets/images/reaccion-quimica.jpeg" alt="">
+        <img src="https://concepto.de/wp-content/uploads/2019/10/reaccion-quimica-e1571434174528.jpg" alt="reaccion quimica">
       </div>
     </div>
   </div>
