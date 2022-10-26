@@ -1,31 +1,24 @@
-<script setup lang="ts">
-const name = $ref('')
-
-const router = useRouter()
-const go = () => {
-  if (name)
-    router.push(`/hi/${encodeURIComponent(name)}`)
-}
-</script>
-
 <template>
   <div>
-    <div i-carbon-campsite text-4xl inline-block />
-    <div class="header">
-      <h1>Factores que afectan la velocidad de Reaccion</h1>
-    </div>
-    <nav>
-      <div>Equilibrio quimico</div>
-      <div>Constante de equilibrio</div>
-      <div>Calses de equilibrio</div>
-    </nav>
-
-    <div py-4 />
-
-    <div>
-      <button class="m-3 text-sm btn" :disabled="!name" @click="go">
-        Go
-      </button>
+    <Header />
+    <div
+      class="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 text-center"
+    >
+      <img
+        src="reaccion-quimica.jpeg"
+        alt="reaccion quimica"
+        class="mx-auto max-w-lg h-auto"
+      >
     </div>
   </div>
 </template>
+
+<style scoped>
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+nav {
+  text-align: left;
+}
+</style>

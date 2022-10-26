@@ -1,23 +1,21 @@
 <script setup lang="ts">
-const props = defineProps<{ name: string }>()
+const props = defineProps<{ section: string }>()
 const router = useRouter()
 </script>
 
 <template>
   <div>
+    <Header />
     <div i-carbon-chemistry text-4xl inline-block />
     <p>
-      Hi, {{ props.name }}
+      {{ props.section }}
     </p>
     <p text-sm op50>
-      <em>Dynamic route!</em>
+      <em>clases</em>
     </p>
 
     <div>
-      <button
-        class="btn m-3 text-sm mt-8"
-        @click="router.back()"
-      >
+      <button class="btn m-3 text-sm mt-8" @click="router.back()">
         Back
       </button>
     </div>
