@@ -115,8 +115,7 @@
         <p p-4>
           En química, se llama redox al equilibrio químico que se da en una
           reacción de reducción-oxidación (redox). Una reacción de oxidación al
-          equilibrio es una de la forma: Oxidante_1 \, + \, Reductor_2 \, = \,
-          Reductor_1 \, + \, Oxidante_2 Que puede ser vista como la suma de dos
+          equilibrio es una de la forma: <img src="https://cidta.usal.es/cursos/quimica/modulos/curso/uni_05/images/u5c1s1f6.jpg" alt=""> Que puede ser vista como la suma de dos
           semireacciones al equilibrio: Una oxidación de una sustancia que actúa
           como agente reductor, que cede electrones o incrementa su número de
           oxidación
@@ -137,7 +136,7 @@
           es que los sólidos iónicos se disocian en sus iones constituyentes,
           cuando se disuelven en agua. La mayor parte de las veces, el agua es
           el disolvente de interés, aunque los mismos principios básicos son
-          aplicables a cualquier disolvente.x
+          aplicables a cualquier disolvente.
         </p>
       </div>
     </div>
